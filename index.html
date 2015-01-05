@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find Your Nearest</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body{
+        height: 100%;
+        margin: 20px 0px;
+        padding: 0px;
+		text-align: center;
+      }
+	  input{
+	  width: 300px;
+	  padding: 10px;
+	  }
+	  button{
+	  padding: 10px;
+	  }
+    </style>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places,geometry"></script>
+	<script src="./data.json"></script>
+	<script src="./findstuff.js"></script>
+	<body onload="initialize()">
+	<h1>Find You're Nearest Club</h1>
+	<input type="text" id="autocomplete" />
+	<button id="search" onClick="getLatLng(); return false;">Search</button>
+	<p id="message"></p>
+	</body>
+	</html>

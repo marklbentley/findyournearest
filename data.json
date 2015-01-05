@@ -1,0 +1,25 @@
+//Variable showing Premier League stadium locations. Correct for 2014/15 season
+
+
+var stadiums = [
+	{'club' : 'Liverpool',         'stadium': 'Anfield',              'lat' : 53.430833, 'lng' : -2.960833 }, 
+	{'club' : 'West Ham',          'stadium': 'Boleyn Ground',        'lat' : 51.531944, 'lng' :  0.039444 }, 
+	{'club' : 'Stoke City',        'stadium': 'Britannia Stadium',    'lat' : 52.988333, 'lng' : -2.175556 },
+	{'club' : 'Leicester City',    'stadium': 'King Power Stadium',   'lat' : 52.620278, 'lng' : -1.142222 },
+	{'club' : 'QPR',               'stadium': 'Loftus Road',          'lat' : 51.509167, 'lng' : -0.232222 },
+	{'club' : 'Manchester City',   'stadium': 'Etihad Stadium',       'lat' : 53.483056, 'lng' : -2.200278 },
+	{'club' : 'Burnley',           'stadium': 'Turf Moor',            'lat' : 53.789167, 'lng' : -2.230278 },
+	{'club' : 'Southampton',       'stadium': 'St Mary\'s',           'lat' : 50.905833, 'lng' : -1.391111 },
+	{'club' : 'Arsenal',           'stadium': 'Emirates Stadium',     'lat' : 51.555   , 'lng' : -0.108611 },
+	{'club' : 'Everton',           'stadium': 'Goodison Park',        'lat' : 53.438889, 'lng' : -2.966389 },
+	{'club' : 'WBA',               'stadium': 'The Hawthorns',        'lat' : 52.509167, 'lng' : -1.963889 },
+	{'club' : 'Hull City',         'stadium': 'KC Stadium',           'lat' : 53.746111, 'lng' : -0.3675   },
+	{'club' : 'Swansea City',      'stadium': 'Liberty Stadium',      'lat' : 51.642778, 'lng' : -3.934722 },
+	{'club' : 'Manchester United', 'stadium': 'Old Trafford',         'lat' : 53.463056, 'lng' : -2.291389 },
+	{'club' : 'Sunderland',        'stadium': 'Stadium of Light',     'lat' : 54.914444, 'lng' : -1.388333 },
+	{'club' : 'Crystal Palace',    'stadium': 'Selhurst Park',        'lat' : 51.398333, 'lng' : -0.085556 },
+	{'club' : 'Chelsea',           'stadium': 'Stamford Bridge',      'lat' : 51.481667, 'lng' : -0.191111 },
+	{'club' : 'Aston Villa',       'stadium': 'Villa Park',           'lat' : 52.509167, 'lng' : -1.884722 },
+	{'club' : 'Newcastle United',  'stadium': 'St James\' Park',      'lat' : 54.975556, 'lng' : -1.621667 },
+	{'club' : 'Tottenham Hotspur', 'stadium': 'White Hart lane',      'lat' : 51.603333, 'lng' : -0.065833 }
+	];
