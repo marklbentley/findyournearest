@@ -12,9 +12,12 @@ var geocoder;
 
    function compare(latLngA){
    
-         var distances = [];
+         console.log(latLngA);
+		 
+		 var distances = [];
 		 
 		 var length = stadiums.length;
+		 
 		 for(var i = 0; i < length; i++){
 		 var latLngB = new google.maps.LatLng(stadiums[i].lat, stadiums[i].lng);
 		 
@@ -49,8 +52,8 @@ var geocoder;
 	
 	  if(status == google.maps.GeocoderStatus.OK){
 	     
-		 var lat = results[0].geometry.location.k;
-		 var lng = results[0].geometry.location.D;
+		 var lat = results[0].geometry.location.lat();
+		 var lng = results[0].geometry.location.lng();
 		 latLngA = new google.maps.LatLng(lat, lng);
          
          compare(latLngA);		 
